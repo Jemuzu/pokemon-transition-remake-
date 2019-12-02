@@ -1,0 +1,36 @@
+body{
+  overflow: hidden;
+}
+header{
+	width: 100%;
+	background-color: red;
+	padding: 1em;
+  text-align: center;
+}
+h1{
+  font-size: 2em;
+}
+nav li{
+  display: inline;
+  list-style: none;
+  text-align:center;
+	font-size: 1.2em;
+  padding: 1em;
+  text-decoration: none;
+}
+nav a{
+  text-decoration: none;
+  color: rgba(250, 250, 250, 1.0);
+}
+nav a:hover{
+  background-color: white;
+}
+main {
+  width: 75%;
+  margin: 1em 0 1em 10%;
+  padding: 2.5%;
+  line-height: 2em;
+  -webkit-box-shadow: 10px 10px 153px -16px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 153px -16px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 153px -16px rgba(0,0,0,0.75);
+}
